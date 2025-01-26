@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-DATA_PATH = "Woodlife/Candiour 40.xlsx"
+DATA_PATH = "Candiour 40.xlsx"
 df = pd.read_excel(DATA_PATH)
 
 # Filters
